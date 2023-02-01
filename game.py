@@ -1,5 +1,8 @@
 # 소스 코드 수정 중
 
+##수정해보겠습니다.
+##수정할게 없네요
+
 import random
 num1 = int(input("하나를 선택하세요 : 가위(0), 바위(1), 보(2) :"))
 num2 = random.randrange(0, 3)
