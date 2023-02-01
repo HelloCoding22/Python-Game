@@ -1,3 +1,6 @@
+# 소스 코드 수정 중
+# dfsadfsdf
+
 import random
 num1 = int(input("하나를 선택하세요 : 가위(0), 바위(1), 보(2) :"))
 num2 = random.randrange(0, 3)
@@ -31,4 +34,3 @@ else:
         print("당신이 이겼습니다.")
     else:
         print("비겼습니다.")
-print('게임이 끝났습니다')
