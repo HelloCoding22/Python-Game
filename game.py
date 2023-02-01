@@ -1,7 +1,9 @@
 # 소스 코드 수정 중
 #살려줘요
 import random
+
 num1 = int(input("하나를 선택하세요 : 가위(0), 바위(1), 보(2) :"))
+# 컴퓨터가 내는 숫자 랜덤 지정
 num2 = random.randrange(0, 3)
 
 if num2 == 0:
@@ -11,7 +13,7 @@ elif num2 == 1:
 else:
     print("컴퓨터는 보를 냈습니다.")
 
-
+# 컴퓨터가 낸 숫자와 사용자가 낸 숫자비교
 if num1 == 0:
     if num2 == 1:
         print("컴퓨터가 이겼습니다")
