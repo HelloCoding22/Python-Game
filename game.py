@@ -1,5 +1,5 @@
 # 소스 코드 수정 중
-# dfsadfsdf
+# pull할건데 제대로 될까
 
 import random
 num1 = int(input("하나를 선택하세요 : 가위(0), 바위(1), 보(2) :"))
