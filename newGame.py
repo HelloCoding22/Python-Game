@@ -1,2 +1,1 @@
 print('new game')
-print('--------')
