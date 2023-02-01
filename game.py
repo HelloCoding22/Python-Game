@@ -1,7 +1,7 @@
 # 소스 코드 수정 중
 # 김태효 수정
 import random
-num1 = int(input("하나를 선택하세요 : 가위(0), 바위(1), 보(2) :"))
+num1 = int(input("하나를 선택하세요 뿅 : 가위(0), 바위(1), 보(2) :"))
 num2 = random.randrange(0, 3)
 
 if num2 == 0:
