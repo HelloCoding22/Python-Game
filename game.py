@@ -1,5 +1,6 @@
 import random
 
+#가위 바위 보를 정수 형태로 입력받습니다.
 num1 = int(input("하나를 선택하세요 : 가위(0), 바위(1), 보(2) :"))
 num2 = random.randrange(0, 3)
 
