@@ -1,5 +1,6 @@
 import random
 
+# 가위바위보 게임 만들기
 num1 = int(input("하나를 선택하세요 : 가위(0), 바위(1), 보(2) :"))
 num2 = random.randrange(0, 3)
 
