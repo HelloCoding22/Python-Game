@@ -1,6 +1,8 @@
 #modified
 import random
-
+count_win = 0
+count_lose = 0
+count_draw = 0
 num1 = int(input("하나를 선택하세요 : 가위(0), 바위(1), 보(2) :"))
 num2 = random.randrange(0, 3)
 
@@ -13,22 +15,31 @@ else:
 
 if num1 == 0:
     if num2 == 1:
+        count_lose += 1
         print("컴퓨터가 이겼습니다")
     elif num2 == 2:
+        count_win += 1
         print("당신이 이겼습니다.")
     else:
+        count_draw += 1
         print("비겼습니다.")
 elif num1 == 1:
     if num2 == 0:
+        count_win += 1
         print("당신이 이겼습니다.")
     elif num2 == 2:
+        count_lose += 1
         print("컴퓨터가 이겼습니다.")
     else:
+        count_draw += 1
         print("비겼습니다.")
 else:
     if num2 == 0:
+        count_lose += 1
         print("컴퓨터가 이겼습니다")
     elif num2 == 1:
+        count_win += 1
         print("당신이 이겼습니다.")
     else:
+        count_draw += 1
         print("비겼습니다.")
