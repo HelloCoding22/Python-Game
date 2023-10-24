@@ -1,3 +1,4 @@
+#modified
 import random
 
 num1 = int(input("하나를 선택하세요 : 가위(0), 바위(1), 보(2) :"))
