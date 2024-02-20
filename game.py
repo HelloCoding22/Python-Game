@@ -1,4 +1,5 @@
 # 소스코드수정중
+# All Korean transcripted to English
 
 import random
 
@@ -28,8 +29,8 @@ elif num1 == 1:
         print("비겼습니다.Draw")
 else:
     if num2 == 0:
-        print("컴퓨터가 이겼습니다")
+        print("컴퓨터가 이겼습니다.Computer Wins!")
     elif num2 == 1:
-        print("당신이 이겼습니다.")
+        print("당신이 이겼습니다.You Win!")
     else:
-        print("비겼습니다.")
+        print("비겼습니다.Draw!")
