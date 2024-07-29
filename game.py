@@ -1,3 +1,5 @@
+# 코드 수정 중
+
 import random
 # 내가 고쳤어유
 num1 = int(input("하나를 선택하세요 : 가위(0), 바위(1), 보(2) :"))
@@ -16,18 +18,18 @@ if num1 == 0:
     elif num2 == 2:
         print("당신이 이겼습니다.")
     else:
-        print("비겼습니다.")
+        print("비겼지렁.")
 elif num1 == 1:
     if num2 == 0:
         print("당신이 이겼습니다.")
     elif num2 == 2:
         print("컴퓨터가 이겼습니다.")
     else:
-        print("비겼습니다.")
+        print("비겼지렁.")
 else:
     if num2 == 0:
-        print("컴퓨터가 이겼습니다")
+        print("컴퓨터가 이겼습니다. ㅠㅠ")
     elif num2 == 1:
-        print("당신이 이겼습니다.")
+        print("당신이 이겼습니다 짝짝짝.")
     else:
         print("비겼습니다.")
