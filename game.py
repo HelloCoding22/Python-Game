@@ -1,5 +1,5 @@
 # 소스 코드 수정 중
-
+# sooyong 확인 완료
 import random
 # 나도 고쳤어유
 num1 = int(input("하나를 선택하세요 : 가위(0), 바위(1), 보(2) :"))
