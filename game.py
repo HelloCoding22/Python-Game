@@ -2,6 +2,7 @@
 
 import random
 # 나도 고쳤어유
+# 난 너무 잘 생겼어 ㅋ
 num1 = int(input("하나를 선택하세요 : 가위(0), 바위(1), 보(2) :"))
 num2 = random.randrange(0, 3)
 
