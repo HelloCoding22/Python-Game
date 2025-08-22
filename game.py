@@ -1,5 +1,5 @@
 # 소스 코드 수정 중
-
+# sooyong 확인 완료
 import random
 # 나도 고쳤어유
 # 난 너무 잘 생겼어 ㅋ
