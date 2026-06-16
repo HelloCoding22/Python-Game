@@ -14,7 +14,7 @@ else:
 
 if num1 == 0:
     if num2 == 1:
-        print("컴퓨터가 이겼습니다")
+        print("1캄퓨터가 이겼습니다")
     elif num2 == 2:
         print("당신이 이겼습니다.")
     else:
