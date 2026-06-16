@@ -1,4 +1,4 @@
-# 수정
+# 도둑질
 
 import random
 
