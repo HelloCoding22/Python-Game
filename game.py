@@ -4,6 +4,7 @@ import random
 
 num1 = int(input("하나를 선택하세요 : 가위(0), 바위(1), 보(2) :"))
 num2 = random.randrange(0, 3)
+num3 = 0
 
 if num2 == 0:
     print("컴퓨터는 가위를 냈습니다.")
