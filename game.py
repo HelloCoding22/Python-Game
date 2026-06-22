@@ -1,4 +1,4 @@
-# 수정
+# 소 스 코 드 수정 중
 
 import random
 
